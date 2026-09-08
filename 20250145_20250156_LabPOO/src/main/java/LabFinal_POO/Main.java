@@ -28,14 +28,13 @@ public class Main {
             System.out.println("Ingrese el nombre del cliente normal");
             nombre = scan.nextLine();
             cli.agregarClienteNormal(nombre);
-            cli.HistorialLista();
             break;
         case(2):
             System.out.println("Agrega un cliente VIP");
             System.out.println("Ingrese el nombre del cliente VIP");
             nombre = scan.nextLine();
             cli.agregarClienteVIP(nombre);
-            cli.HistorialLista();
+
             break;
         case(3):
             System.out.println("\n Atendiendo al siguiente cliente");
